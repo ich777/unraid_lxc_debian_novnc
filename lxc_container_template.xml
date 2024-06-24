@@ -5,7 +5,7 @@
   <Release>bookworm</Release>
   <Architecture>amd64</Architecture>
   <Repository>https://github.com/ich777/unraid_lxc_debian_novnc</Repository>
-  <Description>Debian Desktop through noVNC</Description>
+  <Description>Debian Boowkorm with noVNC</Description>
   <Privileged>true</Privileged>
   <Autostart>false</Autostart>
   <Beta>True</Beta>
