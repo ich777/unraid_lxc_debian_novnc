@@ -15,6 +15,7 @@
   <Overview>This LXC container contains a full Debian Bookworm Desktop environment which you can interact through the Browser through noVNC.</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:8080/vnc.html?autoconnect=true</WebUI>
+  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/novnc.png</Icon>
   <DonateText>If you like my work (or not) please </DonateText>
   <DonateLink>https://payme.now/pls</DonateLink>
   <Requires>unRAID server</Requires>
