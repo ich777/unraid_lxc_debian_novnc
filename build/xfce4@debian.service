@@ -1,0 +1,11 @@
+[Unit]
+Description=XFCE4 session
+After=novnc@debian.service
+[Service]
+Type=simple
+User=%i
+Environment="XDG_RUNTIME_DIR=/tmp/xdg"
+Environment="DISPLAY=:99"
+ExecStart=startxfce4
+[Install]
+WantedBy=multi-user.target

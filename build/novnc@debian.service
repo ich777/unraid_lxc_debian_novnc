@@ -1,0 +1,9 @@
+[Unit]
+Description=VNC Server
+After=vncserver@debian.service
+[Service]
+Type=simple
+User=%i
+ExecStart=websockify --web=/usr/share/novnc/ --cert=/etc/ssl/novnc.pem 8080 localhost:5900
+[Install]
+WantedBy=multi-user.target

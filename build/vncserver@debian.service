@@ -1,0 +1,9 @@
+[Unit]
+Description=VNC Server
+After=network-online.target
+[Service]
+Type=simple
+User=%i
+ExecStart=Xvnc -geometry 1280x1024 -depth 16 :99 -rfbport 5900 -securitytypes none
+[Install]
+WantedBy=multi-user.target

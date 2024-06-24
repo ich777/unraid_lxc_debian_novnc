@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LXC version="0.1">
+  <Name>DebianVNC</Name>
+  <Distribution>debian</Distribution>
+  <Release>bookworm</Release>
+  <Architecture>amd64</Architecture>
+  <Repository>https://github.com/ich777/unraid_lxc_debian_novnc</Repository>
+  <Description>Debian Desktop through noVNC</Description>
+  <Privileged>true</Privileged>
+  <Autostart>false</Autostart>
+  <Beta>True</Beta>
+  <Support>https://support.me.pls</Support>
+  <Source>https://www.debian.org/</Source>
+  <Project>https://www.debian.org/</Project>
+  <Overview>This LXC container contains a full Debian Bookworm Desktop environment which you can interact through the Browser through noVNC.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:8080/vnc.html?autoconnect=true</WebUI>
+  <DonateText>If you like my work (or not) please </DonateText>
+  <DonateLink>https://payme.now/pls</DonateLink>
+  <Requires>unRAID server</Requires>
+</LXC>
